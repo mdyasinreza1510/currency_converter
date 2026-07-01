@@ -4,6 +4,7 @@ let btn = document.querySelector("#button");
 let fromcurr=document.querySelector(".from select");
 let tocurr=document.querySelector(".to select");
 let finalmsg=document.querySelector("#msg");
+
 for( let select of dropdown){
     for ( currcode in countryList){
         let newoption=document.createElement("option");
